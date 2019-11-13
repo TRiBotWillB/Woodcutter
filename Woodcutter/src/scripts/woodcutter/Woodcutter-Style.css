@@ -1,0 +1,96 @@
+.button:pressed:hover {
+    -fx-scale-y: 0.95;
+    -fx-scale-x: 0.95;
+}
+
+.button:hover {
+    -fx-background-color: #383838;
+    -fx-scale-y: 1.05;
+}
+
+.button {
+    -fx-background-color: #363636;
+    -fx-background-radius: 0;
+}
+
+.jfx-tab-pane .headers-region {
+    -fx-background-color: #363636;
+}
+
+.jfx-tab-pane .tab-header-background {
+    -fx-background-color: #363636;
+}
+
+.jfx-tab-pane .tab-header-area .jfx-rippler {
+    -jfx-rippler-fill: #706f6f;
+}
+
+.jfx-tab-pane .tab-selected-line {
+    -fx-background-color: #099056;
+}
+
+.menu .label {
+    -fx-text-fill: white;
+    -fx-background-color: #363636;
+}
+
+/* Styling the slider thumb */
+.jfx-slider > .thumb {
+    -fx-background-color: #099056;
+}
+
+/* Styling the filled track */
+.jfx-slider > .colored-track {
+    -fx-background-color: #099056;
+}
+
+/* Styling the animated thumb */
+.jfx-slider > .animated-thumb {
+    -fx-background-color: #099056;
+}
+
+/* Styling the slider value text inside animated thumb */
+.jfx-slider .slider-value {
+    -fx-fill: white;
+    -fx-stroke: white;
+}
+
+.tree-table-view {
+    -fx-tree-table-color: rgba(9, 144, 86, 0.3);
+}
+
+.tree-table-cell {
+    -fx-text-alignment: center;
+}
+
+.jfx-text-field {
+    -jfx-focus-color: #099056;
+    -jfx-unfocus-color: #4d4d4d;
+}
+
+.combo-box {
+    -jfx-focus-color: #099056;
+    -jfx-unfocus-color: #4d4d4d;
+}
+
+.combo-box-popup .list-cell:hover {
+    -fx-background-color: #099056;
+}
+
+.combo-box-popup .list-cell:focused {
+    -fx-background-color: #097d43;
+}
+
+.combo-box-popup .list-cell:pressed {
+    -fx-background-color: #098c51;
+}
+
+.combo-box .list-cell:filled:selected .text,
+.choice-box .list-cell:filled:selected .text {
+    -fx-background-color: rgba(9, 144, 86, 0.3);
+}
+
+.combo-box .arrow,
+.choice-box .arrow {
+    -fx-background-color: #099056;
+}
